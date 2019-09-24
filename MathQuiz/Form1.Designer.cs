@@ -50,6 +50,7 @@
             this.dividedRightLabel = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.dividedLeftLabel = new System.Windows.Forms.Label();
+            this.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.sum)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.difference)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.product)).BeginInit();
@@ -60,7 +61,7 @@
             // 
             this.timeLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.timeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.timeLabel.Location = new System.Drawing.Point(272, 9);
+            this.timeLabel.Location = new System.Drawing.Point(272, 28);
             this.timeLabel.Name = "timeLabel";
             this.timeLabel.Size = new System.Drawing.Size(200, 30);
             this.timeLabel.TabIndex = 0;
@@ -69,7 +70,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(165, 14);
+            this.label1.Location = new System.Drawing.Point(165, 33);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(101, 25);
             this.label1.TabIndex = 1;
@@ -94,7 +95,6 @@
             this.label2.TabIndex = 3;
             this.label2.Text = "=";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-
             // 
             // plusRightLabel
             // 
@@ -105,7 +105,6 @@
             this.plusRightLabel.TabIndex = 4;
             this.plusRightLabel.Text = "?";
             this.plusRightLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
- 
             // 
             // label4
             // 
@@ -123,7 +122,7 @@
             this.sum.Location = new System.Drawing.Point(314, 84);
             this.sum.Name = "sum";
             this.sum.Size = new System.Drawing.Size(100, 35);
-            this.sum.TabIndex = 6;
+            this.sum.TabIndex = 2;
             // 
             // difference
             // 
@@ -131,7 +130,7 @@
             this.difference.Location = new System.Drawing.Point(314, 134);
             this.difference.Name = "difference";
             this.difference.Size = new System.Drawing.Size(100, 35);
-            this.difference.TabIndex = 11;
+            this.difference.TabIndex = 3;
             // 
             // label3
             // 
@@ -140,7 +139,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(60, 50);
             this.label3.TabIndex = 10;
-            this.label3.Text = "+";
+            this.label3.Text = "-";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // minusRightLabel
@@ -179,7 +178,7 @@
             this.product.Location = new System.Drawing.Point(314, 184);
             this.product.Name = "product";
             this.product.Size = new System.Drawing.Size(100, 35);
-            this.product.TabIndex = 16;
+            this.product.TabIndex = 4;
             // 
             // label5
             // 
@@ -188,7 +187,7 @@
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(60, 50);
             this.label5.TabIndex = 15;
-            this.label5.Text = "+";
+            this.label5.Text = "x";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // timesRightLabel
@@ -227,7 +226,7 @@
             this.quotient.Location = new System.Drawing.Point(314, 234);
             this.quotient.Name = "quotient";
             this.quotient.Size = new System.Drawing.Size(100, 35);
-            this.quotient.TabIndex = 21;
+            this.quotient.TabIndex = 5;
             // 
             // label10
             // 
@@ -236,7 +235,7 @@
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(60, 50);
             this.label10.TabIndex = 20;
-            this.label10.Text = "+";
+            this.label10.Text = "÷";
             this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // dividedRightLabel
@@ -269,11 +268,23 @@
             this.dividedLeftLabel.Text = "?";
             this.dividedLeftLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+            // 
+            this.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.AutoSize = true;
+            this.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.Location = new System.Drawing.Point(170, 306);
+            this.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.Name = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+            this.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.Size = new System.Drawing.Size(127, 34);
+            this.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.TabIndex = 1;
+            this.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.Text = "Start the quiz";
+            this.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(484, 361);
+            this.Controls.Add(this.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa);
             this.Controls.Add(this.quotient);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.dividedRightLabel);
@@ -333,6 +344,7 @@
         private System.Windows.Forms.Label dividedRightLabel;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label dividedLeftLabel;
+        private System.Windows.Forms.Button aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa;
     }
 }
 
